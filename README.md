@@ -5,9 +5,6 @@ https://www.youtube.com/watch?v=coming soon...
 Supplied 7 pre-trained '*.ml' files in the "./training dir", "*_id_xy.ml" files have been trained on 2 images and can morph images, "*_id.ml" files have been trained on 2 images andcan blend.
 
 Supplied pre-trained networks:
-  spiderman mask <-> spiderman symbol
-  david banner <-> hulk
-  lion <-> tiger
-  ghostbusters
+  spiderman mask <-> spiderman symbol, david banner <-> hulk, lion <-> tiger, ghostbusters
 
 ![Alt text](/training/training.png?raw=true "NN trained on Ghostbusters logo")
