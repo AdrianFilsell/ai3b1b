@@ -2,8 +2,10 @@ Machine learning desktop app, convolutional neural network implementation, suppo
 
 https://www.youtube.com/watch?v=coming soon...
 
-Supplied 7 pre-trained '*.ml' files in the "./training dir", "*_id_xy.ml" files have been trained on 2 images and can morph images, "*_id.ml" files have been trained on 2 images andcan blend.
+Supplied 7 pre-trained '*.ml' files in the "./training dir", "*_id_xy.ml" files have been trained on 2 images and can morph images, "*_id.ml" files have been trained on 2 images and can blend.
+
 "*_id_xy.ml" files: i.e. "./training/lion_tiger_id_xy.ml", press 'load', open "./training/lion_tiger_id_xy.ml", make sure correct input type selected i.e. go to 'Layers' tab in main dialog and select input combo type 'Image id,x,y -> b8g8r8', open 'Image Panel' via 'Control Panel', select 'Output' from 'Thumb Src' combo, press 'Animate'.
+
 "*_id.ml" files: i.e. "./training/lion_tiger_id.ml", press 'load', open "./training/lion_tiger_id.ml", make sure correct input type selected i.e. go to 'Layers' tab in main dialog and select input combo type 'Image id -> b8g8r8', open 'Image Panel' via 'Control Panel', select 'Output' from 'Thumb Src' combo, press 'Animate'.
 
 Supplied pre-trained networks:
