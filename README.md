@@ -1,0 +1,3 @@
+Machine learning desktop app, use AI to resample/blend/morph images, intel tbb desktop app written in MFC/C++, more details can be found here:
+
+https://www.youtube.com/watch?v=coming soon...
