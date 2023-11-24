@@ -14,6 +14,7 @@ network machine learning inference image blending.
 network machine learning inference image morphing.
 
 save/load network configuration and training to/from file.
+if you load 'image id -> b8g8r8' data but current input layer type in main dlg is not 'image id -> b8g8r8' you will not see the data loaded, so load then select data type you wish to view/mutate.
 
 build/configure
 ===============
