@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="resources">
+      <UniqueIdentifier>{c485b9c0-1ea7-4845-a11f-6b248329b795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{756af73c-a438-46c1-8968-932747b1cf50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thread">
+      <UniqueIdentifier>{b8bececa-81ae-40d3-861d-bf7e5b377c4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ml">
+      <UniqueIdentifier>{9ec6571c-0b9e-4500-ad09-7a5bfc775227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ml\ui">
+      <UniqueIdentifier>{c9691845-cb2a-4b27-95db-6c4083087648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ml\ui\jpeg">
+      <UniqueIdentifier>{5cf98890-b103-4344-8c80-674e35d4450e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ml\ui\jpeg\libjpeg">
+      <UniqueIdentifier>{203a5616-7ae5-4c6a-8802-2f168fae9e26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ml\ui\layer">
+      <UniqueIdentifier>{da63b2fe-1344-4358-b109-59a8173e3bd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ml\ui\train">
+      <UniqueIdentifier>{125ce0e1-7e89-4661-9946-a8f6f2542286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ml\ui\train\panel">
+      <UniqueIdentifier>{9563083c-c6b8-4871-9852-7bac26fa4079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ml\ui\train\cost">
+      <UniqueIdentifier>{61a575f5-0831-439e-951e-bd4bd2df649b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ml\ui\train\image">
+      <UniqueIdentifier>{ca2c3946-9853-47f3-a01c-01cd2a7befc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ml\ui\dib">
+      <UniqueIdentifier>{03582e10-6fc7-488e-a04c-209e706ad6cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="ai3b1bDlg.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="ai3b1b.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="tabctrl.h">
+      <Filter>ml\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ml_network.h">
+      <Filter>ml</Filter>
+    </ClInclude>
+    <ClInclude Include="mxnmatrix.h">
+      <Filter>ml</Filter>
+    </ClInclude>
+    <ClInclude Include="thread_taskscheduler.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="core.h" />
+    <ClInclude Include="thread_parallelfor.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="winthread_ml.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="winthread.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\cderror.h">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\cdjpeg.h">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\jdct.h">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\jerror.h">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\jinclude.h">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\jmemsys.h">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\jmorecfg.h">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\jpegint.h">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\jpeglib.h">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\jversion.h">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\transupp.h">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeg.h">
+      <Filter>ml\ui\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="layerdlg.h">
+      <Filter>ml\ui\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="newlayerdlg.h">
+      <Filter>ml\ui\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="traindlg.h">
+      <Filter>ml\ui\train</Filter>
+    </ClInclude>
+    <ClInclude Include="trainpaneldlg.h">
+      <Filter>ml\ui\train\panel</Filter>
+    </ClInclude>
+    <ClInclude Include="trainpanelwnd.h">
+      <Filter>ml\ui\train\panel</Filter>
+    </ClInclude>
+    <ClInclude Include="traincostwnd.h">
+      <Filter>ml\ui\train\cost</Filter>
+    </ClInclude>
+    <ClInclude Include="traincostdlg.h">
+      <Filter>ml\ui\train\cost</Filter>
+    </ClInclude>
+    <ClInclude Include="trainimagewnd.h">
+      <Filter>ml\ui\train\image</Filter>
+    </ClInclude>
+    <ClInclude Include="trainimagedlg.h">
+      <Filter>ml\ui\train\image</Filter>
+    </ClInclude>
+    <ClInclude Include="traincostgraphwnd.h">
+      <Filter>ml\ui\train\cost</Filter>
+    </ClInclude>
+    <ClInclude Include="hint.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="dibwnd.h">
+      <Filter>ml\ui\dib</Filter>
+    </ClInclude>
+    <ClInclude Include="dib.h">
+      <Filter>ml\ui\dib</Filter>
+    </ClInclude>
+    <ClInclude Include="serialise.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="imageexportdimdlg.h">
+      <Filter>ml\ui\train\image</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ai3b1b.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="ai3b1bDlg.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="tabctrl.cpp">
+      <Filter>ml\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="thread_parallelfor.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="core.cpp" />
+    <ClCompile Include="winthread_ml.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="winthread.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jaricom.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcapimin.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcapistd.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcarith.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jccoefct.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jccolor.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcdctmgr.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jchuff.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcinit.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcmainct.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcmarker.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcmaster.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcomapi.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcparam.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcprepct.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcsample.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jctrans.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdapimin.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdapistd.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdarith.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdatadst.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdatasrc.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdcoefct.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdcolor.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jddctmgr.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdhuff.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdinput.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdmainct.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdmarker.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdmaster.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdmerge.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdpostct.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdsample.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdtrans.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jerror.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jfdctflt.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jfdctfst.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jfdctint.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jidctflt.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jidctfst.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jidctint.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jmemmgr.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jmemnobs.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jquant1.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jquant2.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jutils.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\transupp.c">
+      <Filter>ml\ui\jpeg\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg.cpp">
+      <Filter>ml\ui\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="ml_network.cpp">
+      <Filter>ml</Filter>
+    </ClCompile>
+    <ClCompile Include="layerdlg.cpp">
+      <Filter>ml\ui\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="newlayerdlg.cpp">
+      <Filter>ml\ui\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="traindlg.cpp">
+      <Filter>ml\ui\train</Filter>
+    </ClCompile>
+    <ClCompile Include="trainpaneldlg.cpp">
+      <Filter>ml\ui\train\panel</Filter>
+    </ClCompile>
+    <ClCompile Include="trainpanelwnd.cpp">
+      <Filter>ml\ui\train\panel</Filter>
+    </ClCompile>
+    <ClCompile Include="traincostwnd.cpp">
+      <Filter>ml\ui\train\cost</Filter>
+    </ClCompile>
+    <ClCompile Include="traincostdlg.cpp">
+      <Filter>ml\ui\train\cost</Filter>
+    </ClCompile>
+    <ClCompile Include="trainimagewnd.cpp">
+      <Filter>ml\ui\train\image</Filter>
+    </ClCompile>
+    <ClCompile Include="trainimagedlg.cpp">
+      <Filter>ml\ui\train\image</Filter>
+    </ClCompile>
+    <ClCompile Include="traincostgraphwnd.cpp">
+      <Filter>ml\ui\train\cost</Filter>
+    </ClCompile>
+    <ClCompile Include="dib.cpp">
+      <Filter>ml\ui\dib</Filter>
+    </ClCompile>
+    <ClCompile Include="dibwnd.cpp">
+      <Filter>ml\ui\dib</Filter>
+    </ClCompile>
+    <ClCompile Include="serialise.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="imageexportdimdlg.cpp">
+      <Filter>ml\ui\train\image</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ai3b1b.ico">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\bmp00002.bmp">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="res\bmp00003.bmp">
+      <Filter>resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ai3b1b.rc">
+      <Filter>resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ai3b1b.rc2">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="ml_network.inl">
+      <Filter>ml</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,124 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Visual C++ generated include file.
+// Used by ai3b1b.rc
+//
+#define IDM_ABOUTBOX                    0x0010
+#define IDD_ABOUTBOX                    100
+#define IDS_ABOUTBOX                    101
+#define IDD_AI3B1B_DIALOG               102
+#define IDC_EPOCH_TIMER                 102
+#define IDR_MAINFRAME                   128
+#define IDD_LAYER                       131
+#define IDD_TRAIN                       133
+#define IDD_NEWLAYER                    136
+#define IDD_EXPORT_IMAGE_DIM            137
+#define IDD_TRAIN_IMAGE                 138
+#define IDD_TRAIN_PANEL                 139
+#define IDD_TRAIN_COST                  140
+#define IDB_PLAY                        141
+#define IDB_PAUSE                       142
+#define IDB_STEP                        143
+#define IDB_CLEAR                       144
+#define IDD_ANALYSE                     145
+#define IDD_DIALOG1                     149
+#define IDC_LAYER_LIST                  1007
+#define IDC_LOAD                        1008
+#define IDC_SAVE                        1009
+#define IDC_AI3B1B_TAB                  1010
+#define IDC_LAYER_INPUT_TYPE_COMBO      1014
+#define IDC_LAYER_ADD                   1015
+#define IDC_LAYER_ERASE                 1016
+#define IDC_LAYER_INPUT_PERCEPTRONS_EDIT 1017
+#define IDC_LAYER_INPUT_PERCEPTRONS_SPIN 1018
+#define IDC_LAYER_ACTIVATION_FN_COMBO   1019
+#define IDC_LAYER_NORMALISE_ACTIVATIONS_COMBO 1020
+#define IDC_LAYER_GRADIENT_CLIP_COMBO   1021
+#define IDC_LAYER_GRADIENT_CLIP_EDIT    1022
+#define IDC_LAYER_INPUT_DIM_EDIT        1023
+#define IDC_LAYER_UP                    1024
+#define IDC_LAYER_DOWN                  1025
+#define IDC_LAYER_INPUT_GRP             1026
+#define IDC_LAYER_INPUT_DIM_SPIN        1027
+#define IDC_LAYER_PERCEPTRONS_EDIT      1029
+#define IDC_LAYER_PERCEPTRONS_SPIN      1030
+#define IDC_LAYER_HIDDEN_OUTPUT_GRP     1033
+#define IDC_LAYER_PARAMS                1034
+#define IDC_TRAIN_INPUT_EDIT            1038
+#define IDC_TRAIN_OUTPUT_EDIT           1039
+#define IDC_TRAIN_ADD                   1042
+#define IDC_TRAIN_ERASE                 1043
+#define IDC_TRAIN_INITIALISE_COMBO      1045
+#define IDC_TRAIN_EPOCHS_EDIT           1052
+#define IDC_TRAIN_EPOCHS_SPIN           1053
+#define IDC_TRAIN_EPOCHS_CHECK          1054
+#define IDC_IMAGE_EXPORT_HEIGHT_EDIT    1054
+#define IDC_IMAGE_EXPORT_HEIGHT_SPIN    1055
+#define IDC_TRAIN_INITIALISE_FROM_EDIT  1060
+#define IDC_TRAIN_INITIALISE_TO_EDIT    1061
+#define IDC_TRAIN_SET_TREE              1063
+#define IDC_TRAIN_INPUT_TREE            1064
+#define IDC_TRAIN_OUTPUT_TREE           1065
+#define IDC_TRAIN_PLAY_BTN              1066
+#define IDC_TRAIN_PAUSE_BTN             1067
+#define IDC_TRAIN_CLEAR_BTN             1068
+#define IDC_TRAIN_STEP_BTN              1069
+#define IDC_TRAIN_COST_CHECK            1070
+#define IDC_TRAIN_IMAGE_CHECK           1071
+#define IDC_PANEL_UI_CHECK              1071
+#define IDC_EPOCH_TEXT                  1072
+#define IDC_COST_UPDATE_CHECK           1074
+#define IDC_COST_UPDATE_EDIT            1075
+#define IDC_COST_UPDATE_SPIN            1076
+#define IDC_COST_UPDATE_BTN             1077
+#define IDC_COST_LAST_VALUE_TEXT        1078
+#define IDC_IMAGE_LERP_EDIT             1078
+#define IDC_COST_MAX_VALUE_TEXT         1079
+#define IDC_IMAGE_LERP_SPIN             1079
+#define IDC_COST_MIN_VALUE_TEXT         1080
+#define IDC_COST_HISTORY_RECT           1081
+#define IDC_TRAIN_RATE_EDIT             1082
+#define IDC_COST_HISTORY_RANGE_MAX_TEXT 1082
+#define IDC_COST_MAX_EPOCH_TEXT         1083
+#define IDC_COST_MIN_EPOCH_TEXT         1084
+#define IDC_COST_LAST_EPOCH_TEXT        1085
+#define IDC_COST_HISTORY_RANGE_MIN_TEXT 1086
+#define IDC_ANALYSE_SET_TREE            1087
+#define IDC_ANALYSE_INPUT_TREE          1088
+#define IDC_ANALYSE_OUTPUT_LIST         1089
+#define IDC_SET_MINDIFF_TEXT            1090
+#define IDC_SET_MAXDIFF_TEXT            1091
+#define IDC_SET_MEANDIFF_TEXT           1092
+#define IDC_SRC_IMAGE_RECT              1092
+#define IDC_MINDIFF_TEXT                1093
+#define IDC_MAXDIFF_TEXT                1094
+#define IDC_MEANDIFF_TEXT               1095
+#define IDC_IMAGE_UPDATE_CHECK          1096
+#define IDC_IMAGE_UPDATE_EDIT           1097
+#define IDC_IMAGE_UPDATE_SPIN           1098
+#define IDC_IMAGE_UPDATE_BTN            1099
+#define IDC_IMAGE_THUMB_SMOOTH_CHECK    1100
+#define IDC_IMAGE_EXPORT                1101
+#define IDC_IMAGE_EXPORT_TYPE_COMBO     1101
+#define IDC_IMAGE_LERP_ANIMATE          1102
+#define IDC_IMAGE_EXPORT_WIDTH_EDIT     1103
+#define IDC_IMAGE_DIB_RECT              1104
+#define IDC_IMAGE_EXPORT_WIDTH_SPIN     1104
+#define IDC_CHECK1                      1105
+#define IDC_IMAGE_EXPORT_ASPECT_CHECK   1105
+#define IDC_IMAGE_THUMB_SCALETOFIT_CHECK 1105
+#define IDC_IMAGE_INPUT_COMBO           1106
+#define IDC_PARAMS_TEXT                 1106
+#define IDC_IMAGE_THUMB_INPUT_COMBO     1107
+#define IDC_IMAGE_LERP_COMBO            1109
+#define IDC_IMAGE_LERP_SLIDER           1110
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        154
+#define _APS_NEXT_COMMAND_VALUE         32771
+#define _APS_NEXT_CONTROL_VALUE         1107
+#define _APS_NEXT_SYMED_VALUE           103
+#endif
+#endif
