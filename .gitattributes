@@ -43,7 +43,6 @@
 #*.jpg   binary
 #*.png   binary
 #*.gif   binary
-#*.ml linguist-language=nn
 
 ###############################################################################
 # diff behavior for common document formats
