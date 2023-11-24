@@ -4,7 +4,7 @@ https://www.youtube.com/watch?v=coming soon...
 
 Supplied 7 pre-trained '*.ml' files in the "./training dir", "*_id_xy.ml" files have been trained on 2 images and can morph images, "*_id.ml" files have been trained on 2 images andcan blend.
 
-Trained networks:
+Supplied pre-trained networks:
   spiderman mask <-> spiderman symbol
   david banner <-> hulk
   lion <-> tiger
