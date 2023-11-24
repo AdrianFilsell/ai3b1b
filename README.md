@@ -2,4 +2,4 @@ Machine learning desktop app, convolutional neural network implementation, suppo
 
 https://www.youtube.com/watch?v=coming soon...
 
-![Alt text](/training/ghostbusters.jpg?raw=true "NN trained on Ghostbusters logo")
+![Alt text](/training/training.png?raw=true "NN trained on Ghostbusters logo")
