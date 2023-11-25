@@ -58,6 +58,7 @@ public:
 
 	void setactive(const bool b){}
 	afml::trainsetitem::inputtype getinputtype(void) const;
+	void setinputtype(const afml::trainsetitem::inputtype it);
 	void onhint(const hint *p);
 
 	bool read(const serialise *pS);
@@ -72,6 +73,7 @@ public:
 	static int getactivationfntypeindex(const afml::activationfn::type t);
 	static int getactivationnormtypeindex(const afml::activationnorm<>::type t);
 	static int getgradientcliptypeindex(const afml::gradientclip<>::type t);
+	static CString getinputtypename(const afml::trainsetitem::inputtype t);
 
 	// list ctrl
 	static void setlistctrlcolumntext(CListCtrl *pList,const int n,const int nC,const CString& cs);

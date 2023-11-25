@@ -112,6 +112,13 @@ BOOL layerdlg::OnInitDialog()
 	return TRUE;  // return TRUE  unless you set the focus to a control
 }
 
+void layerdlg::setinputtype(const afml::trainsetitem::inputtype it)
+{
+	m_nInputType=getinputtypeindex(it);
+	UpdateData(false);
+	OnInputTypeSelChange();
+}
+
 void layerdlg::OnInputTypeSelChange(void)
 {
 	// update members from ui
@@ -654,6 +661,17 @@ int layerdlg::getinputtypeindex(const afml::trainsetitem::inputtype t)
 		case afml::trainsetitem::it_image_i_id_o_b8g8r8:return 1;
 		case afml::trainsetitem::it_image_i_id_xy_o_b8g8r8:return 2;
 		default:return 0;
+	}
+}
+
+CString layerdlg::getinputtypename(const afml::trainsetitem::inputtype t)
+{
+	switch(t)
+	{
+		case afml::trainsetitem::it_user:return _T("User");
+		case afml::trainsetitem::it_image_i_id_o_b8g8r8:return _T("Image id -> b8g8r8");
+		case afml::trainsetitem::it_image_i_id_xy_o_b8g8r8:return _T("Image id,x,y -> b8g8r8");
+		default:return _T("");
 	}
 }
 

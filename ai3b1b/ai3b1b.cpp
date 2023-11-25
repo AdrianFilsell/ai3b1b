@@ -478,6 +478,26 @@ bool Cai3b1bApp::load(void)
 	
 	theApp.broadcasthint(&hint(hint::t_load));
 
+	const bool bSwapInputType = true;
+	const auto it = getlayerdlg()->getinputtype();
+	const bool bTrainingData = (getinput(it)->gettraining().size()>0);
+	if(bSwapInputType && !bTrainingData)
+	{
+		const std::vector<afml::trainsetitem::inputtype> v{afml::trainsetitem::it_image_i_id_xy_o_b8g8r8,afml::trainsetitem::it_image_i_id_o_b8g8r8,afml::trainsetitem::it_user};
+		auto i = v.cbegin(),end=v.cend();
+		for(;i!=end;++i)
+		{
+			const bool bTrainingData = (getinput(*i)->gettraining().size()>0);
+			if(!bTrainingData)continue;
+
+			CString cs;
+			cs.Format(_T("loaded \"%s\" data, switch to this type?"),layerdlg::getinputtypename(*i));
+			if(AfxMessageBox(cs,MB_YESNO|MB_ICONQUESTION)==IDYES)
+				getlayerdlg()->setinputtype(*i);
+			break;
+		}
+	}
+
 	return true;
 }
 
