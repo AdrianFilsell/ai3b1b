@@ -131,6 +131,8 @@ void trainimagedlg::OnLerpAnimate(void)
 	for(int n=0;n<=nFrom;++n)
 		vIndices.push_back(n);
 	auto i = vIndices.cbegin(),end=vIndices.cend();
+	const bool bAccumulateFrames = true;
+	std::vector<std::shared_ptr<const afdib::dib>> vDibs;
 	for(;i!=end;++i)
 	{
 		m_nLerpSlider=*i;
@@ -143,8 +145,26 @@ void trainimagedlg::OnLerpAnimate(void)
 		if(sp)
 			theApp.getthread()->push_back(sp,true);
 
-		m_spDibWnd->set(static_cast<mlthreaddibrequestbase*>(sp.get())->getdib());
-		m_spDibWnd->UpdateWindow();
+		if(bAccumulateFrames)
+			vDibs.push_back(static_cast<mlthreaddibrequestbase*>(sp.get())->getdib());
+		else
+		{
+			m_spDibWnd->set(static_cast<mlthreaddibrequestbase*>(sp.get())->getdib());
+			m_spDibWnd->UpdateWindow();
+		}
+	}
+	if(bAccumulateFrames)
+	{
+		const DWORD dwFPS=60;
+		const DWORD dwIntraDelay=1000/dwFPS;
+		auto i = vDibs.cbegin(),end=vDibs.cend();
+		for(;i!=end;++i)
+		{
+			::Sleep(dwIntraDelay);
+
+			m_spDibWnd->set(*i);
+			m_spDibWnd->UpdateWindow();
+		}
 	}
 	postdibrequest(dt_lerp);
 
