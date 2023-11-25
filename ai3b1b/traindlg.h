@@ -22,6 +22,8 @@ public:
 	void setactive(const bool b);
 	void onhint(const hint *p);
 
+	void validatenetworktrainingmismatch(bool& bMismatch,bool& bFixed);
+
 	bool read(const serialise *pS) {return true;}
 	bool write(const serialise *pS) const {return true;}
 
@@ -54,7 +56,6 @@ public:
 	static afml::trainsetitem *gettrainsetitem(CTreeCtrl *pSetTree,const HTREEITEM h);
 	static bool gettreectrlchildindex(CTreeCtrl *pTree,const HTREEITEM hParent,const HTREEITEM hChild,int& n);
 	static int gettreectrlchildcount(CTreeCtrl *pTree,const HTREEITEM hParent);
-	static void validatenetworktrainingmismatch(bool& bMismatch,bool& bFixed);
 	static bool loadimagetrainingdata(const serialise *pS,std::map<afml::trainsetitem::inputtype,std::shared_ptr<afml::inputtypeitem>>& m);
 protected:
 	bool m_bInitialised;

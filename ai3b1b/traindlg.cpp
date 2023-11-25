@@ -892,6 +892,27 @@ void traindlg::validatenetworktrainingmismatch(bool& bMismatch,bool& bFixed)
 		break;
 		default:ASSERT(false);
 	}
+
+	if(bFixed)
+	{
+		// populate
+		const HTREEITEM ht = populatesettreectrl(&m_SetTree);
+
+		// update selection
+		if(ht)
+		{
+			if(m_SetTree.GetParentItem(ht))
+			{
+				if(!(m_SetTree.GetItemState(m_SetTree.GetParentItem(ht), TVIS_EXPANDED) & TVIS_EXPANDED))
+					m_SetTree.Expand(m_SetTree.GetParentItem(ht),TVE_EXPAND);
+			}
+			m_SetTree.Select(ht,TVGN_CARET); // sel change handler will do the work
+			return;
+		}
+	
+		// populate
+		populateinputoutput();
+	}
 }
 
 std::vector<std::shared_ptr<afml::trainsetitem>> traindlg::getnetworktrainingmismatch(const afml::trainsetitem::inputtype t)
