@@ -11,3 +11,9 @@ Supplied 7 pre-trained network files:
 spiderman mask <-> spiderman symbol, david banner <-> hulk, lion <-> tiger, ghostbusters
 
 ![Alt text](/training/training.png?raw=true "NN trained on Ghostbusters logo")
+
+Introduction into machine learning I used:
+https://www.youtube.com/watch?v=aircAruvnKk
+
+Machine learning math I used:
+http://neuralnetworksanddeeplearning.com
