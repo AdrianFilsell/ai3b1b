@@ -1,6 +1,6 @@
 Machine learning desktop app, convolutional neural network implementation, supports network creation/configuraton/training, trained image network can use inference to resample/blend/morph images. Network configuration and training progress can be saved/loaded. Written using MFC/C++/intel tbb/jpeglib, more details can be found here:
 
-https://www.youtube.com/watch?v=coming soon...
+https://www.youtube.com/watch?v=w7J6oxk9tSA
 
 Supplied 7 pre-trained network files:
 
@@ -11,3 +11,9 @@ Supplied 7 pre-trained network files:
 spiderman mask <-> spiderman symbol, david banner <-> hulk, lion <-> tiger, ghostbusters
 
 ![Alt text](/training/training.png?raw=true "NN trained on Ghostbusters logo")
+
+Introduction into machine learning I used:
+https://www.youtube.com/watch?v=aircAruvnKk
+
+Machine learning math I used:
+http://neuralnetworksanddeeplearning.com
