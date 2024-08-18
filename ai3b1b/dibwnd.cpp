@@ -36,12 +36,10 @@ void dibwnd::OnSize(UINT nType, int cx, int cy)
 
 	m_szWindow=CSize(cx,cy);
 
-	CPaintDC dc(this);
-
 	CDC *pDC = GetDC();
 	if(m_OffscreenBmp.GetSafeHandle())
 		m_OffscreenBmp.DeleteObject();
-	const BOOL b = m_OffscreenBmp.CreateCompatibleBitmap(&dc,m_szWindow.cx,m_szWindow.cy);
+	const BOOL b = m_OffscreenBmp.CreateCompatibleBitmap(pDC,m_szWindow.cx,m_szWindow.cy);
 	ReleaseDC(pDC);
 }
 
