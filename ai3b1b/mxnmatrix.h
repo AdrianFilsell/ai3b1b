@@ -165,7 +165,7 @@ public:
 		--m_nZ;
 	}
 	__forceinline void setrowscols(const mxnxzmatrix& o){setrowscols(o.getrows(),o.getcols(),o.getz());}
-	__forceinline void setrowscols(const int nR, const int nC,const int nZ=1) { if(isextentsequal(nR,nC,nZ))return;if (nR<1 || nC<1 || nZ<1) { return; } m_nRows = nR; m_nCols = nC; m_nZ = nZ; if(m_v.size()<(m_nRows*m_nCols*m_nZ)) m_v.resize(m_nRows*m_nCols*m_nZ); }
+	__forceinline void setrowscols(const int nR, const int nC,const int nZ=1) { if(isextentsequal(nR,nC,nZ))return;if (nR<1 || nC<1 || nZ<1) { return; } m_nRows = nR; m_nCols = nC; m_nZ = nZ; if(static_cast<int>(m_v.size())<(m_nRows*m_nCols*m_nZ)) m_v.resize(m_nRows*m_nCols*m_nZ); }
 	__forceinline void setrowcol(const int nR, const int nC,const T d,const int nZ=0) { getrow(nR,nZ)[nC]=d; }
 	__forceinline void clear(void) {m_v.clear();m_nRows=0;m_nCols=0;m_nZ=0;}
 	__forceinline void rand(const T dFrom,const T dTo,const int nZ=0)
